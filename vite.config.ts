@@ -6,7 +6,7 @@ import svgLoader from 'vite-svg-loader';
 // https://vitejs.dev/config/
 export default defineConfig({
   base: '/3-column-preview-card-component/',
-  plugins: [vue(), svgLoader()],
+  plugins: [vue()],
   resolve: {
     alias: {
       '@images': path.resolve(__dirname, 'src/assets/images'),

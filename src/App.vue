@@ -25,11 +25,10 @@
 
 <script setup lang="ts">
 import PreviewCard from '@components/PreviewCard.vue';
-import {getImage} from '@helpers/common';
 
-const iconLuxury = getImage('icon-luxury.svg');
-const iconSedans = getImage('icon-sedans.svg');
-const iconSuvs = getImage('icon-suvs.svg');
+import iconLuxury from '@images/icon-luxury.svg?url';
+import iconSedans from '@images/icon-sedans.svg?url';
+import iconSuvs from '@images/icon-suvs.svg?url';
 </script>
 
 <style lang="scss" module>

@@ -7,7 +7,12 @@ module.exports = {
     colors: colorStyles,
     extend: {
       fontFamily: {
-        sans: [...fontFamily.sans],
+        sans: ['Lexend Deca', ...fontFamily.sans],
+        heading: ['Big Shoulders Display', ...fontFamily.sans],
+      },
+      fontSize: {
+        base: ['0.9375rem', '1.5625rem'],
+        '4xl': ['2.5rem', '3rem'],
       },
       maxWidth: {
         auto: 'auto',
